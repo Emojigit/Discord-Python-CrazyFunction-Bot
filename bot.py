@@ -36,7 +36,7 @@ class MyClient(discord.Client):
             await message.channel.send(str(open("info.md").read()))
 
 client = MyClient()
-client.run('Njg3NTg2OTMxODQ0MTg2MTQ2.XmoCew.KDoLAcB3UU8xSO06Zq8tK6nKmg0')
+client.run('MY-TOKEN')
 print()
 
 
